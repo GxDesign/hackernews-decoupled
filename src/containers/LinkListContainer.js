@@ -1,6 +1,6 @@
 import {graphql} from "react-apollo/index";
 import gql from 'graphql-tag';
-import LinkListComponent from '../components/LinkList/LinkListComponent';
+import { LinkListComponent } from '../components/index.js';
 
 const FEED_QUERY = gql`
   # 2
